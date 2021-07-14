@@ -1,17 +1,11 @@
-## 安装
+# pinyin
 
-```js
-npm install 'easy-pinyin' --save
-```
+无字典的汉字转拼音方案，保证浏览器端最小体积 (12k)，但不支持多音字）。
 
-## 使用
+fork 自 `https://github.com/huntbao/pinyin`
 
-```js
-import pinyin from 'easy-pinyin';
+### 差别：
 
-const str = '拼音';
-console.log(pinyin(str)); // pin'yin
-```
-
-## 注意
-只支持浏览器环境
+-   迁移到 Typescript
+-   更合适的正则汉字范围判断
+-   只返回拼音（忽略非中文）的可选项

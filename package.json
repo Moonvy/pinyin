@@ -1,16 +1,20 @@
 {
-  "name": "easy-pinyin",
-  "version": "1.0.1",
-  "description": "汉字转拼音，浏览器端实现",
-  "main": "pinyin.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/huntbao/pinyin.git"
-  },
-  "author": "HuntBao",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/huntbao/pinyin/issues"
-  },
-  "homepage": "https://github.com/huntbao/pinyin#readme"
+    "name": "easy-pinyin",
+    "version": "1.1.0",
+    "description": "汉字转拼音，浏览器端实现",
+    "main": "pinyin.js",
+    "module": "pinyin.ts",
+    "scripts": {
+        "build": "tsc ./pinyin.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/huntbao/pinyin.git"
+    },
+    "author": "HuntBao",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/huntbao/pinyin/issues"
+    },
+    "homepage": "https://github.com/huntbao/pinyin#readme"
 }
